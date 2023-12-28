@@ -636,7 +636,7 @@ nav .fa-solid {
     }
 
     .container5 .title .pp{
-        font-size: 15px;
+        font-size: 25px;
     }
 
     .second{
@@ -681,7 +681,10 @@ nav .fa-solid {
         padding-left: 50px;
     }
 
-
+    #box5 .b521 a {
+        font-size: 25px;
+    }
+    
 
     .b52 .b521{
         font-size: 15px;
@@ -692,10 +695,13 @@ nav .fa-solid {
         margin-left: 150px;
     }
 
-    .b53 .cont{
-        font-size: 15px;
+    .b53 .cont {
+        font-size: 20px;
     }
 
+    #box5 .b52 .b521{
+        column-gap: 10px;
+    }
 }
 
 
