@@ -440,7 +440,7 @@ nav .fa-solid {
 @media only screen and (max-width: 620px) {
     body{
         width: 100%;
-        overflow-y: hidden;
+        overflow-x: hidden;
     }
 
     nav {
