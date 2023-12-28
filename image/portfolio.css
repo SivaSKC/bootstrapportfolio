@@ -543,6 +543,7 @@ nav .fa-solid {
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: center;
+        align-items: center;
     }
 
     .main .mbox1 button {
