@@ -91,34 +91,32 @@ nav .fa-solid {
     margin: 20px 0;
 }
 
-.main .mbox2{
-    width: 50%;
-    height: 400px;
+.mbox2{
+    padding: 15px;
 }
 
 .main .mbox2 img {
-    width: 70%;
-    height: 100%;
+    width: 400px;
+    height: 400px;
 }
 
 .main .mbox1 {
-    width: 50%;
     color: #dbd8e3;
-    padding-top: 60px;
+    padding: 60px 10px 10px 10px;
 }
 
 .main .mbox1 .h1 {
-    font-size: 60px;
+    font-size: 50px;
     margin-bottom: 15px;
 }
 
 .main .mbox1 .h2 {
-    font-size: 70px;
+    font-size: 60px;
     margin-bottom: 15px;
 }
 
 .main .mbox1 .h3 {
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 15px;
 }
 
@@ -507,9 +505,10 @@ nav .fa-solid {
         color: #dbd8e3;
     }
 
+
     .main .mbox2 img {
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
     }
 
     .main .mbox1 .h1 {
@@ -533,6 +532,7 @@ nav .fa-solid {
     .main .mbox1 {
         order: 2;
         text-align: center;
+        padding: 10px;
     }
 
     .main{
