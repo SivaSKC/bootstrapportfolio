@@ -506,7 +506,7 @@ nav .fa-solid {
 
     nav .fa-bars {
         position: absolute;
-        top: 30px;
+        top: 25px;
         right: 30px;
     }
 
@@ -532,7 +532,7 @@ nav .fa-solid {
 
     .main .mbox1 .h2 {
         font-size: 32px;
-        display: block;
+        display: inline-block;
     }
 
     .main .mbox1 .h3 {
