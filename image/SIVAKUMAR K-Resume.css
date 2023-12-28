@@ -152,3 +152,101 @@ body{
 .box10>ul>li{
     line-height: 25px;
 }
+
+
+
+
+
+@media only screen and (max-width: 620px){
+
+    body{
+        width: 100vw;
+        height: 100vh;
+        margin: 20px auto;
+    }
+
+    #box1{
+        position: relative;
+    }
+
+    #box1>.image{
+        width: 100%;
+        height: 90px;
+        padding: 15px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    #box1>.image>img{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+
+    .box1-1{
+        position: absolute;
+        top: 250px;
+        left: 0;
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    #box1 p{
+        font-size: 10px;
+    }
+
+    .box1>.logo>i{
+        font-size: 10px;
+    }
+
+    .box3>ul>li{
+        line-height: 25px;
+    }
+
+    .box3>ul{
+        padding-left: 25px;
+    }
+
+    .box2 p{
+        padding-left: 10px;
+        text-indent: 10px;
+    }
+
+    #box2{
+        padding: 25px 20px 10px 0;
+    }
+
+    #box2>.box6{
+        padding-left: 15px;
+    }
+
+    #box2>.box6>h1{
+        font-size: 30px;
+    }    
+
+    #box2>.box6>h4{
+        font-weight: 500;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    #box2>.box6>p{
+        line-height:16px;
+        margin-bottom: 12px;
+        text-indent: 10px;
+    }
+
+    #box2 h3{
+        padding-left: 30px;
+        border-bottom: 1px solid black;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+    }
+
+    #box2>.box7>ul>li{
+        line-height: 19px;
+        margin-bottom: 5px;
+        font-size: 15px;
+    }
+}
