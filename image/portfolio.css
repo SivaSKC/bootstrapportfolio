@@ -646,6 +646,12 @@ nav .fa-solid {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 10px;
+    }
+
+    .second .b53 form{
+        width: 80%;
+        margin: 0 auto;
     }
 
     .second .b52{
@@ -667,9 +673,7 @@ nav .fa-solid {
         margin-top: 20px;
         margin-left: 150px;
     }
-    /* .b53{
-        display: none;
-    } */
+
     .b53 .cont{
         font-size: 15px;
     }
