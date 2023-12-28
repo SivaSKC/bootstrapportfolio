@@ -84,7 +84,6 @@ nav .fa-solid {
 
 
 .main {
-    width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -102,7 +101,7 @@ nav .fa-solid {
 
 .main .mbox1 {
     color: #dbd8e3;
-    padding: 60px 10px 10px 10px;
+    padding-top: 60px;
 }
 
 .main .mbox1 .h1 {
@@ -489,10 +488,8 @@ nav .fa-solid {
 
     nav .fa-bars {
         position: absolute;
-        top: 40px;
+        top: 30px;
         right: 30px;
-        padding: 0;
-        margin: 0;
     }
 
 
@@ -512,33 +509,40 @@ nav .fa-solid {
     }
 
     .main .mbox1 .h1 {
-        font-size: 35px;
+        font-size: 25px;
     }
 
     .main .mbox1 .h2 {
-        font-size: 42px;
+        font-size: 32px;
     }
 
     .main .mbox1 .h3 {
-        font-size: 35px;
+        font-size: 25px;
     }
 
     .main .mbox2 {
         order: 1;
         margin-top: 10px;
-
+        width: 50%;
     }
 
     .main .mbox1 {
         order: 2;
         text-align: center;
-        padding: 10px;
+        padding: 0;
+        width: 50%;
     }
 
     .main{
+        width: 100%;
         display: flex;
-        justify-content: center;
         flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .main .mbox1 button {
+    width: 150px;
+    font-size: 10px;
     }
 
     #box2{
