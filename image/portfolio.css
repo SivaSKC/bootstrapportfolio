@@ -201,7 +201,7 @@ nav .fa-solid {
 #box3 .skils {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     gap: 20px;
     color: #dbd8e3;
     margin-top: 50px;
