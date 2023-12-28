@@ -628,6 +628,9 @@ nav .fa-solid {
         margin-top: 20px;
         margin-left: 150px;
     }
+    .b53{
+        display: none;
+    }
     .b53 .cont{
         font-size: 15px;
     }
