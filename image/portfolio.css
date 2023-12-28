@@ -566,7 +566,7 @@ nav .fa-solid {
 
     .main .mbox1 button {
     width: 150px;
-    font-size: 10px;
+    font-size: 15px;
     }
 
     #box2{
@@ -581,17 +581,23 @@ nav .fa-solid {
         font-size: 16px;
     }
 
+    .container3{
+        width: 100%;
+        padding: 10px;
+    }
+
     #box3 .container3>p{
         font-size: 25px;
-        color: red;
     }
 
     #box3 .skils{
+        width: 80%;
         display: flex;
         flex-wrap: wrap;
         width: 100%;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
+        padding: 20px;
     }
 
     #box3 .skils .skil{
@@ -599,7 +605,7 @@ nav .fa-solid {
         height: 70px;
         font-size: 10px;
     }
-    
+
 
     .container4 .projects{
         display: flex;
