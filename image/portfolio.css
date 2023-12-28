@@ -594,9 +594,10 @@ nav .fa-solid {
         align-items: center;
     }
 
-    #box3 .skils img{
-        width: 100px;
-        height: 100px;
+    #box3 .skils .skil{
+        width: 70px;
+        height: 70px;
+        font-size: 10px;
     }
 
     .container4 .projects{
