@@ -221,7 +221,7 @@ nav .fa-solid {
     margin-top: 15px;
 }
 
-/* #box3 a {
+#box3 a {
     display: block;
     text-align: right;
     margin-top: 30px;
@@ -232,7 +232,7 @@ nav .fa-solid {
 
 #box3 i {
     margin-right: 10px;
-} */
+}
 
 #box4{
     width: 100%;
@@ -342,7 +342,7 @@ nav .fa-solid {
     opacity: 1;
 }
 
-/* #box4 .backtohome {
+#box4 .backtohome {
     width: 100%;
 }
 
@@ -357,7 +357,7 @@ nav .fa-solid {
 
 #box4 .backtohome a i {
     margin-right: 10px;
-} */
+}
 #box5{
     width: 100%;
     padding: 20px;
@@ -448,6 +448,20 @@ nav .fa-solid {
 }
 
 
+#box5 a {
+    display: block;
+    text-align: right;
+    margin-top: 30px;
+    margin-right: 20px;
+    color: #7858c7;
+    text-decoration: none;
+}
+
+#box5 i {
+    margin-right: 10px;
+}
+
+
 @media only screen and (max-width: 620px) {
     #box1{
         padding: 5px 10px;
@@ -518,6 +532,7 @@ nav .fa-solid {
 
     .main .mbox1 .h2 {
         font-size: 32px;
+        display: block;
     }
 
     .main .mbox1 .h3 {
@@ -528,6 +543,9 @@ nav .fa-solid {
         order: 1;
         margin-top: 10px;
         width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .main .mbox1 {
@@ -583,11 +601,7 @@ nav .fa-solid {
     justify-content: center;
     }
 
-    .container5 .second{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+    
 
     .container5 .title .pp{
         font-size: 15px;
@@ -597,6 +611,7 @@ nav .fa-solid {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         padding: 0;
         margin: 20px 0;
     }
