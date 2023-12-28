@@ -654,6 +654,14 @@ nav .fa-solid {
         margin: 0 auto;
     }
 
+    .second .b53 form input{
+        width: 100%;
+    }
+
+    .second .b53 form textarea{
+        width: 100%;
+    }
+
     .second .b52{
         width: 100%;
         display: flex;
