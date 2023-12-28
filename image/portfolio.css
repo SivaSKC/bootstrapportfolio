@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -11,10 +12,8 @@ body {
 #box1 {
     width: 100%;
     height: 100%;
-}
-
-.header {
-    padding: 20px 10%;
+    padding: 20px 5%;
+    margin-bottom: 50px;
 }
 
 nav {
@@ -23,6 +22,7 @@ nav {
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 nav ul li {
@@ -84,18 +84,25 @@ nav .fa-solid {
 
 
 .main {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 20px 0;
 }
 
-.main .mbox2 img {
-    width: 500px;
+.main .mbox2{
+    width: 50%;
     height: 400px;
 }
 
+.main .mbox2 img {
+    width: 70%;
+    height: 100%;
+}
+
 .main .mbox1 {
+    width: 50%;
     color: #dbd8e3;
     padding-top: 60px;
 }
@@ -435,30 +442,20 @@ nav .fa-solid {
     color: #dbd8e3;
 }
 
+.mbox1 span{
+    color: #79c2d0;
+}
 
 
 @media only screen and (max-width: 620px) {
+    #box1{
+        padding: 5px 10px;
+    }
+
     nav {
         font-size: 12px;
         display: flex;
         align-items: flex-start;
-    }
-
-    .main .mbox2 img {
-        width: 300px;
-        height: 300px;
-    }
-
-    .main .mbox1 .h1 {
-        font-size: 35px;
-    }
-
-    .main .mbox1 .h2 {
-        font-size: 42px;
-    }
-
-    .main .mbox1 .h3 {
-        font-size: 35px;
     }
 
     nav ul {
@@ -493,7 +490,7 @@ nav .fa-solid {
     }
 
     nav .fa-bars {
-        position: fixed;
+        position: absolute;
         top: 40px;
         right: 30px;
         padding: 0;
@@ -510,9 +507,27 @@ nav .fa-solid {
         color: #dbd8e3;
     }
 
+    .main .mbox2 img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .main .mbox1 .h1 {
+        font-size: 35px;
+    }
+
+    .main .mbox1 .h2 {
+        font-size: 42px;
+    }
+
+    .main .mbox1 .h3 {
+        font-size: 35px;
+    }
+
     .main .mbox2 {
         order: 1;
         margin-top: 10px;
+
     }
 
     .main .mbox1 {
@@ -523,6 +538,7 @@ nav .fa-solid {
     .main{
         display: flex;
         justify-content: center;
+        flex-direction: column;
     }
 
     #box2{
