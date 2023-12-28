@@ -574,21 +574,24 @@ nav .fa-solid {
     }
 
     #box2 .h1{
-        font-size: 20px;
+        font-size: 25px;
     }
 
     #box2 .h2{
         font-size: 16px;
     }
 
-    #box3 p{
-        font-size: 20px;
+    #box3 .container3>p{
+        font-size: 25px;
+        color: red;
     }
 
     #box3 .skils{
         display: flex;
         flex-wrap: wrap;
-        flex-basis: 100%;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
     }
 
     #box3 .skils img{
